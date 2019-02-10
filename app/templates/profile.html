@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{url_for('static', filename='css/profile.css')}}"
+{% endblock %}
+{% block main %}
+
+<div class="content-area">
+    <section id="head-section">
+        <img src="j-cole-so-successfuljpg.jpg" id="profile-pic">
+        <div id="head-info">
+            <h1>Jevoy Charvis</h1>
+            <h5>@Jev_Frizzy</h5>
+            <p>Kingston, Jamaica</p>
+            <p>Joined {{join_date}}</p>
+        </div>
+    </section>
+    <section id="body-section">
+        <article>
+            <p>
+               Tory Brown is a student of The University of the West Indies. 
+               Where his studying a computer science degree, while gaining exposure and experience which will aid in his personal and professional development, striving to be one of the world greatest programmer.
+            </p>
+            <section id="comments">
+                <div>
+                    <p>10</p>
+                    <p>Posts</p>
+                </div>
+                <div>
+                    <p>241</p>
+                    <p>Following</p>
+                </div>
+                <div>
+                    <p>217</p>
+                    <p>Followers</p>
+                </div>
+                <button>Follow</button>
+            </section>
+        </article>
+    </section>
+</div>
+{% endblock %}

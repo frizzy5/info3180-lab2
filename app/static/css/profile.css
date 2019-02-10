@@ -1,0 +1,43 @@
+#head-section{
+    background: #7EC0EE;
+    min-height: 50%;
+    padding: 2em;
+}
+#head-info{
+    color: white;
+    text-align: center;
+    margin-top: 0.2em;
+}
+#profile-pic{
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+#body-section{
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 3em;
+}
+
+#comments{
+    position: relative;
+    left: 25%;
+}
+#comments div{
+    display: inline-block;
+    padding-left: 2em;
+}
+button{
+    margin-left: 10%;
+    background-color: #7EC0EE;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+    display: block;
+}
+.content-area{
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
